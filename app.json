@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "RNAnimation",
+    "slug": "RNAnimation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/checkMark.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/checkMark.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "build": {
+      "preview": {
+        "android": {
+          "buildType": "apk"
+        }
+      }
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/checkMark.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.prakashchandi.RNAnimation"
+    },
+    "web": {
+      "favicon": "./assets/checkMark.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2629ce60-f7e6-4aaf-9e06-052abb0a9235"
+      }
+    }
+  }
+}

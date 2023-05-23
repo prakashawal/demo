@@ -6,6 +6,9 @@ import HomeScreen from "./src/HomeScreen";
 import IndicatorScreen from "./src/screens/IndicatorScreen";
 import HeaderBarAnimationScreen from "./src/screens/HeaderBarAnimationScreen";
 import SVGPathAnimationScreen from "./src/screens/SVGPathAnimationScreen";
+import SensoryAnimationScreen from "./src/screens/SensoryAnimationScreen";
+import SkiaAnimationScreen from "./src/screens/SkiaAnimationScreen";
+import BottomSheetAnimation from "./src/screens/BottomSheetAnimation";
 
 const Stack = createNativeStackNavigator();
 
@@ -33,6 +36,21 @@ const App = () => {
           options={{ headerTitle: "SVG path animation" }}
           name="svgPath"
           component={SVGPathAnimationScreen}
+        />
+        <Stack.Screen
+          options={{ headerTitle: "Sensory animation" }}
+          name="sensoryAnimation"
+          component={SensoryAnimationScreen}
+        />
+        <Stack.Screen
+          options={{ headerTitle: "Skia animation" }}
+          name="skiaAnimation"
+          component={SkiaAnimationScreen}
+        />
+        <Stack.Screen
+          options={{ headerTitle: "Bottom Sheet animation" }}
+          name="bottomSheet"
+          component={BottomSheetAnimation}
         />
       </Stack.Navigator>
     </NavigationContainer>

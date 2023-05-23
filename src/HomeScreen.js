@@ -28,11 +28,23 @@ const animationsList = [
     name: "SVG Path Animation",
     navigationName: "svgPath",
   },
+  {
+    name: "Sensory Animation",
+    navigationName: "sensoryAnimation",
+  },
+  {
+    name: "Skia Animation",
+    navigationName: "skiaAnimation",
+  },
+  {
+    name: "Bottom Sheet animation",
+    navigationName: "bottomSheet",
+  },
 ];
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1, backgroundColor: "white" }}>
       <FlatList
         contentContainerStyle={{}}
         data={animationsList}
